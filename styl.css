@@ -1,0 +1,35 @@
+* {
+box-sizing:border-box;
+}
+body {
+margin:0px;
+padding:10px;
+text-align:center;
+}
+header, footer {
+padding: 20px;
+background-color: mediumseagreen;
+}
+nav {
+width:35%;
+float:left;
+height:440px;
+background:rgba(180,165,0,0.8);
+}
+nav ul {
+list-style-type:none;
+padding:0;
+}
+section {
+text-align:left;
+width:65%;
+float:left;
+background:grey;
+height:440px;
+padding:10px;
+}
+.main::after {
+content: "";
+clear: both;
+display: table;
+}
